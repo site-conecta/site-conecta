@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONECTA Telecom</title>
+  <style>
+    :root {
+      --azul-principal: #1f4592;
+      --laranja: #f0811a;
+      --cinza-claro: #e8e8e8;
+      --azul-escuro: #0c2e66;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--azul-escuro);
+      color: var(--cinza-claro);
+    }
+    header {
+      background-color: var(--azul-principal);
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      color: var(--laranja);
+      font-size: 1.8rem;
+    }
+    header a {
+      background-color: var(--laranja);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section.hero {
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(to bottom, var(--azul-principal), var(--azul-escuro));
+    }
+    section.hero h2 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+      color: white;
+    }
+    section.hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .planos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+    }
+    .plano {
+      background-color: var(--azul-principal);
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    .plano h3 {
+      color: var(--laranja);
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    .plano p {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+    .plano a {
+      background-color: var(--laranja);
+      color: white;
+      padding: 8px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      background-color: var(--azul-principal);
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CONECTA Telecom</h1>
+    <a href="https://wa.me/551151974080" target="_blank">Assine já</a>
+  </header>
+
+  <section class="hero">
+    <h2>Conectando você pro mundo</h2>
+    <p>Internet rápida, estável e com suporte humano de verdade.</p>
+    <a href="#planos" style="background-color: var(--laranja); padding: 10px 20px; color: white; border-radius: 6px; text-decoration: none; font-weight: bold;">Conheça nossos planos</a>
+  </section>
+
+  <section id="planos" class="planos">
+    <div class="plano">
+      <h3>350 Mega</h3>
+      <p>R$ 79,99/mês</p>
+      <a href="https://wa.me/551151974080" target="_blank">Assinar</a>
+    </div>
+    <div class="plano">
+      <h3>500 Mega</h3>
+      <p>R$ 89,99/mês</p>
+      <a href="https://wa.me/551151974080" target="_blank">Assinar</a>
+    </div>
+    <div class="plano">
+      <h3>700 Mega</h3>
+      <p>R$ 99,99/mês</p>
+      <a href="https://wa.me/551151974080" target="_blank">Assinar</a>
+    </div>
+    <div class="plano">
+      <h3>1 Giga</h3>
+      <p>R$ 129,99/mês</p>
+      <a href="https://wa.me/551151974080" target="_blank">Assinar</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 CONECTA Telecom - Todos os direitos reservados.
+  </footer>
+
+  <a class="whatsapp-btn" href="https://wa.me/551151974080" target="_blank">💬</a>
+</body>
+</html>
